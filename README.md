@@ -4,6 +4,24 @@
   além de mostrar o último caractere inserido através do teclado do computador.</p>
 
 ---
+<h3>📘 Estrutura</h3>
+<p>A escolha, por parte da autoria, de modularizar o código se deve ao fato de existir vários componentes para serem utilizados. Ao modularizar, trazemos uma melhor organização para o código além de promover agilidade ao procurar funções específicas dos componentes. <br>
+  
+  - Arquivos .c são arquivos de código-fonte em que possuem todas as funções necessárias para o funcionamento do projeto.<br>
+  - Arquivos .h são arquivos de cabeçalho que declaram variáveis, funções e etc, e podem ser incluídas nos arquivos de código-fonte.
+    
+    - Para utilizar um arquivo de cabeçalho basta inserir
+    ```
+    #include "caminho_para/arquivo.h"
+    ```
+    - Caso o arquivo .h esteja na mesma pasta que o código-fonte, basta utilizar apenas
+    ```
+    #include "arquivo.h"
+    ```
+</p>
+  
+
+---
 <h3>🎯 Objetivos</h3>
 <p>O programa desenvolvido em Linguagem C para placa Pi Pico W tem como principais objetivos:</p>
 
@@ -51,9 +69,15 @@ Siga as etapas a seguir:
       
         <img width = 200px src = "https://github.com/user-attachments/assets/334fa39d-81de-4e9e-903c-5c09210299db"/>
 
-    - Digite caracteres de A-Z maísculos e minúsculos
-    - Digite caracteres de 0-9 (que serão representados na matriz 5x5)
+  - Digite caracteres de A-Z maísculos e minúsculos
+    
+    <img width = 1000px src = "https://github.com/user-attachments/assets/2141dc6c-77ce-4a54-afc5-9d3a11cd9da2"/>
+    <img width = 300px src = "https://github.com/user-attachments/assets/c5e3a177-6eb5-40bc-a8c2-8a84af100649"/>
 
+  - Digite caracteres de 0-9 (que serão representados na matriz 5x5)
+
+    <img width = 1000px src = "https://github.com/user-attachments/assets/95b270f3-bc14-4574-b829-d39629279359"/>
+    <img width = 300px src = "https://github.com/user-attachments/assets/abc43f37-b16f-4bbe-b2ef-2428e092220f"/>
 ---
 
 <h2>Para mais detalhe sobre o funcionamento...</h2>
